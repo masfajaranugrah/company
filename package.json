@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "cookie": "^1.0.2",
     "isotope-layout": "^3.0.6",
+    "js-cookie": "^3.0.5",
     "next": "^14.2.13",
     "react": "^18",
     "react-countup": "^6.5.3",
@@ -25,6 +27,7 @@
   "devDependencies": {
     "@types/aos": "^3.0.7",
     "@types/isotope-layout": "^3.0.14",
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

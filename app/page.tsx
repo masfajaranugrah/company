@@ -1,3 +1,5 @@
+"use client"
+import { useEffect } from 'react'
  
 import Cta from "@/components/sections/Cta"
  
@@ -9,8 +11,20 @@ import Hero from "@/components/sections/Hero"
  
 import Faqs from "@/components/sections/Faqs"
 import Testimonial3 from "@/components/sections/Testimonial"
- 
+import { setCookie, getCookie } from "@/utils/cookie"
+
  export default function Home() {
+	useEffect(() => {
+		const hasVisited = getCookie("hasVisited")
+
+		if (!hasVisited) {
+			// Pertama kali user akses
+			console.log("User pertama kali akses, simpan ke cookie")
+			setCookie("hasVisited", "true", 30) // expires in 30 days
+		} else {
+			console.log("User sudah pernah akses")
+		}
+	}, [])
 
 	return (
 		<>
