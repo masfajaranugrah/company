@@ -14,8 +14,11 @@ import "@/node_modules/react-modal-video/css/modal-video.css"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Dev Dream",
-    description: "create your business",
+    title: "Dev Dream ",
+    description: "Kembangkan bisnis Anda dengan website & aplikasi yang dirancang khusus untuk menjangkau lebih banyak pelanggan. Gratis domain, hosting, dan garansi selamanya!",
+    icons : {
+        icon : '/public/assets/imgs/logo/logo.png'
+    }
 }
 
 export default function RootLayout({

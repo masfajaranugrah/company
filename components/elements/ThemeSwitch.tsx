@@ -2,24 +2,27 @@
 import { useEffect, useState } from "react"
 
 export default function ThemeSwitch() {
-	const [theme, setTheme] = useState<string>("light")
+	const [theme, setTheme] = useState<string | null>(null)  
 
 	useEffect(() => {
-		// Access localStorage only on the client-side
-		const savedTheme = localStorage?.getItem("theme") || "light"
+		const savedTheme = localStorage.getItem("theme") || "light"
 		setTheme(savedTheme)
 		document.documentElement.setAttribute("data-bs-theme", savedTheme)
 	}, [])
 
 	useEffect(() => {
-		// Update localStorage and HTML tag when theme changes
-		localStorage.setItem("theme", theme)
-		document.documentElement.setAttribute("data-bs-theme", theme)
+		if (theme) {
+			localStorage.setItem("theme", theme)
+			document.documentElement.setAttribute("data-bs-theme", theme)
+		}
 	}, [theme])
 
 	const toggleTheme = () => {
-		setTheme(prevTheme => (prevTheme === "light" ? "dark" : "light"))
+		setTheme(prev => (prev === "light" ? "dark" : "light"))
 	}
+
+	// Jangan render icon sebelum theme siap
+	if (!theme) return null
 
 	return (
 		<div
@@ -27,8 +30,7 @@ export default function ThemeSwitch() {
 			onClick={toggleTheme}
 			style={{ cursor: "pointer" }}
 		>
-			{/* Toggle icon based on theme */}
-			<i className={`bi theme-icon ${theme === "light" ?  "bi-moon-stars-fill" :"bi-sun-fill"}`} />
+			<i className={`bi theme-icon ${theme === "light" ? "bi-moon-stars-fill" : "bi-sun-fill"}`} />
 		</div>
 	)
 }

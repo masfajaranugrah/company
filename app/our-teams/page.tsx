@@ -28,9 +28,9 @@ export default function PageTeam1() {
 								<div className="position-relative d-inline-block z-1">
 									<div className="zoom-img rounded-3">
 										<img
-											className="img-fluid w-100 object-cover rounded-3"
-											style={{ height: "450px", width: "400px" }}
-											src="/assets/imgs/cta/fajar.webp"
+											className="img-fluid object-cover rounded-3"
+											style={{ height: "450px", width: "600px" }}
+											src="/assets/imgs/cta/fajar.jpg"
 											alt="devdream"
 										/>
 									</div>
@@ -58,7 +58,7 @@ export default function PageTeam1() {
 									<div className="zoom-img rounded-3">
 										<img
 											className="img-fluid  object-cover rounded-3"
-											style={{ height: "450px", width: "400px" }}
+											style={{ height: "450px", width: "600px" }}
 											src="/assets/imgs/cta/rakha.png"
 											alt="infinia"
 										/>									</div>

@@ -18,12 +18,8 @@ import { setCookie, getCookie } from "@/utils/cookie"
 		const hasVisited = getCookie("hasVisited")
 
 		if (!hasVisited) {
-			// Pertama kali user akses
-			console.log("User pertama kali akses, simpan ke cookie")
-			setCookie("hasVisited", "true", 30) // expires in 30 days
-		} else {
-			console.log("User sudah pernah akses")
-		}
+  			setCookie("hasVisited", "true", 30)  
+		}  
 	}, [])
 
 	return (
