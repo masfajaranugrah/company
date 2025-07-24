@@ -40,11 +40,15 @@ export default function Footer() {
 
 							{/* Kolom 4 */}
 							<div className="col-lg-3 col-md-6 col-12 mb-4">
-								<h3 className="text-900 fs-6 fw-black text-uppercase pb-3">Connect</h3>
+								<h3 className="text-900 fs-6 fw-black text-uppercase pb-3">Payment</h3>
 								<div className="d-flex social-icons">
-									<Link href="https://www.linkedin.com/" target="_blank" className="text-900 border icon-shape icon-md me-2">
-										<i className="bi bi-linkedin" />
-									</Link>
+									<img src="/assets/imgs/pay/bca.svg" alt="" style={{width:"50px", marginLeft:"15px"}} />
+									<img src="/assets/imgs/pay/bri.png" alt="" style={{width:"50px", marginLeft:"15px"}} />
+									<img src="/assets/imgs/pay/bni.png" alt="" style={{width:"50px", marginLeft:"15px"}} />
+
+ 								</div>
+								<div className="d-flex social-icons mt-3">
+									<img src="/assets/imgs/pay/qris.png" alt="" style={{width:"150px", marginLeft:"15px"}} />
 								</div>
 							</div>
 						</div>

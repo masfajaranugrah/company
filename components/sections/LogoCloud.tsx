@@ -50,6 +50,9 @@ export default function LogoCloud() {
 								<ul className="carouselTicker__list pb-4">
 									<Marquee>
 										<li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2">
+											<img src="/assets/imgs/logo-cloud/mongo.png" alt="devdream" style={{ width: '50px' }} />
+										</li>
+										<li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2">
 											<img className="filter-invert" src="/assets/imgs/logo-cloud-2/nginx.png" alt="devdream" style={{ width: '50px' }} />
 										</li>
 										<li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2">
@@ -57,6 +60,12 @@ export default function LogoCloud() {
 										</li>
 										<li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
 											<img src="/assets/imgs/logo-cloud/php.png" alt="devdream" style={{ width: '50px' }} />
+										</li>
+										<li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+											<img src="/assets/imgs/logo-cloud/vue.png" alt="devdream" style={{ width: '50px' }} />
+										</li>
+										 <li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2">
+											<img className="filter-invert" src="/assets/imgs/logo-cloud/next.png" alt="devdream" style={{ width: '50px' }} />
 										</li>
 										<li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
 											<img src="/assets/imgs/logo-cloud/laravel.png" alt="devdream" style={{ width: '50px' }} />
@@ -70,15 +79,9 @@ export default function LogoCloud() {
 										<li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2">
 											<img className="filter-invert" src="/assets/imgs/logo-cloud-2/go.png" alt="devdream" style={{ width: '50px' }} />
 										</li>
- <li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2">
-											<img className="filter-invert" src="/assets/imgs/logo-cloud/next.png" alt="devdream" style={{ width: '50px' }} />
-										</li>
-										<li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-											<img src="/assets/imgs/logo-cloud/vue.png" alt="devdream" style={{ width: '50px' }} />
-										</li>
-										<li className="carouselTicker__item bg-white py-3 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2">
-											<img src="/assets/imgs/logo-cloud/mongo.png" alt="devdream" style={{ width: '50px' }} />
-										</li>
+
+										
+										
 										
 									</Marquee>
 								</ul>

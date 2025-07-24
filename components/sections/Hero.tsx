@@ -58,14 +58,7 @@ export default function Hero2() {
 
 
 										<ul className="list-unstyled phase-items text-900">
-											<li className="d-flex align-items-center mt-2">
-												<img src="/assets/imgs/hero-2/check.png" alt="devdream" />
-												<span className="ms-2">GRATIS Maintenance 1 Tahun</span>
-											</li>
-											<li className="d-flex align-items-center mt-2">
-												<img src="/assets/imgs/hero-2/check.png" alt="devdream" />
-												<span className="ms-2 text-left">GRATIS Domain + SSL</span>
-											</li>
+											 
 											<li className="d-flex align-items-center mt-2">
 												<img src="/assets/imgs/hero-2/check.png" alt="devdream" />
 												<span className="ms-2 text-left">Super Cepat & Aman</span>
