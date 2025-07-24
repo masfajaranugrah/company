@@ -15,72 +15,39 @@ export default function PageTeam1() {
 							<div className="text-center">
 								<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
 									<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">OUR TEAM MEMBERS</span>
+									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Tim Dev Dream</span>
 								</div>
-								<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={200}>Meet Our Team</h3>
-								<p className="fs-5" data-aos="fade-zoom-in" data-aos-delay={300}>Meet the talented and passionate team members who drive our company forward every day. <br className="d-none d-lg-block" /> company forward every day.</p>
-							</div>
+								<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={200}>Orang-orang Hebat di Balik Dev Dream</h3>
+								<p className="fs-5" data-aos="fade-zoom-in" data-aos-delay={300}>
+									Kami bukan sekadar tim, kami mitra kerja Anda. <br className="d-none d-lg-block" />
+									Bersama, kami ciptakan solusi digital yang berdampak.
+								</p>							</div>
 						</div>
 						<div className="row mt-6 d-flex justify-content-center">
-							{/* prettier-ignore */}
-
-							<div className="col-lg-3 col-md-6 mb-lg-4 mb-7 text-center" data-aos="fade-zoom-in" data-aos-delay={200}>
+ 							<div className="col-lg-4 col-md-6 mb-lg-4 mb-8 text-center">
 								<div className="position-relative d-inline-block z-1">
 									<div className="zoom-img rounded-3">
-										<img
-											className="img-fluid object-cover rounded-3"
-											style={{ height: "450px", width: "600px" }}
-											src="/assets/imgs/cta/fajar.jpg"
-											alt="devdream"
-										/>
+										<img className="img-fluid w-100" src="/assets/imgs/cta/fajar.jpg" alt="infinia" />
 									</div>
-									<div
-
-										className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-3 hover-up"
-									>
-										<h6>Fajar Anugrah</h6>
-										<div className="d-flex flex-column">
-											<span className="fs-6 text-600 mb-2">Software Engineer</span>
-											<div className="d-flex gap-3">
-												<Link href="https://linkedin.com/in/fajaranugrah22" target="_blank" rel="noopener noreferrer">
-													<img src="/assets/imgs/icons/linkedin.png" alt="LinkedIn" width={40} height={40} />
-												</Link>
-												<Link href="https://github.com/masfajaranugrah" target="_blank" rel="noopener noreferrer">
-													<img src="/assets/imgs/icons/github.png" alt="GitHub" width={40} height={40} />
-												</Link>
-											</div>
-										</div>
+									<div className="hover-up">
+										<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-6 shadow-1">
+											<h6>Fajar Angurah</h6>
+											<span className="d-flex justify-content-between">
+												<span className="fs-6 text-600 me-auto">FullStack Developer</span>
+												<div className="d-flex gap-3">
+													<Link href="https://linkedin.com/in/fajaranugrah22" target="_blank" rel="noopener noreferrer">
+														<img src="/assets/imgs/icons/linkedin.png" alt="LinkedIn" width={40} height={40} />
+													</Link>
+													<Link href="https://github.com/masfajaranugrah" target="_blank" rel="noopener noreferrer">
+														<img src="/assets/imgs/icons/github.png" alt="GitHub" width={40} height={40} />
+													</Link>
+												</div>
+											</span>
+										</Link>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-3 col-md-6 mb-lg-4 mb-7 text-center" data-aos="fade-zoom-in" data-aos-delay={300}>
-								<div className="position-relative d-inline-block z-1">
-									<div className="zoom-img rounded-3">
-										<img
-											className="img-fluid  object-cover rounded-3"
-											style={{ height: "450px", width: "600px" }}
-											src="/assets/imgs/cta/rakha.png"
-											alt="infinia"
-										/>									</div>
-									<div
 
-										className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-3 hover-up"
-									>
-										<h6>Rakha Abimanyu</h6>
-										<div className="d-flex flex-column">
-											<span className="fs-6 text-600 mb-2">Software Engineer</span>
-											<div className="d-flex gap-3">
-												<Link href="https://linkedin.com/in/rakha-abimanyu" target="_blank" rel="noopener noreferrer">
-													<img src="/assets/imgs/icons/linkedin.png" alt="LinkedIn" width={40} height={40} />
-												</Link>
-												<Link href="https://github.com/rakhaabimanyu" target="_blank" rel="noopener noreferrer">
-													<img src="/assets/imgs/icons/github.png" alt="GitHub" width={40} height={40} />
-												</Link>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
 
 						</div>
 					</div>

@@ -6,8 +6,7 @@ export default function Preloader() {
 				<div id="loader" className="loader">
 					<div className="loader-container text-centẻ">
 						<div className="loader-icon">
-							<img src="/assets/imgs/logo/logo.png" alt="Preloader" />
-							<p>Loading...</p>
+ 							<p>Loading...</p>
 						</div>
 					</div>
 				</div>

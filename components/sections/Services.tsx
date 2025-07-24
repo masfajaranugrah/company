@@ -2,7 +2,7 @@
 export default function Services2() {
 	return (
 		<>
-			<section className="section-team-1 position-relative fix section-padding">
+			<section id="services" className="section-team-1 position-relative fix section-padding">
 				<div className="container position-relative z-2">
 					<div className="text-center">
 						<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
