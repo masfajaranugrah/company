@@ -3,8 +3,7 @@ import { useEffect } from 'react'
  
 import Cta from "@/components/sections/Cta"
  
-import LogoCloud from "@/components/sections/LogoCloud"
-import Services from "@/components/sections/Services"
+ import Services from "@/components/sections/Services"
 import Static from "@/components/sections/Static"
 import Layout from "@/components/layout/Layout"
 import Hero from "@/components/sections/Hero"

@@ -1,0 +1,17 @@
+@import url("./vendors/bootstrap.min.css");
+@import url("./vendors/swiper-bundle.min.css");
+@import url("./vendors/aos.css");
+@import url("./vendors/odometer.css");
+@import url("./vendors/carouselTicker.css");
+@import url("./vendors/magnific-popup.css");
+
+@import url("../fonts/bootstrap-icons/bootstrap-icons.min.css");
+@import url("../fonts/boxicons/boxicons.min.css");
+@import url("../fonts//satoshi//satoshi.css");
+
+@import url("./logo-3d.css");
+@import url("./main.css");
+
+/* Optional: style khusus hero */
+@import url("./hero-3d.css");
+@import url("./logo-3d.css");
