@@ -57,15 +57,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Dev Dream | Solusi Joki Proyek & Jasa Aplikasi Mobile",
-    description:
-      "Cari joki proyek? Butuh aplikasi mobile cepat jadi? Dev Dream siap bantu selesaikan proyek Anda secara profesional dan terpercaya.",
-    images: [
-      "https://www.devdream.my.id/assets/imgs/logo/icon.jpg",
-    ],
-  },
+  
   metadataBase: new URL("https://www.devdream.my.id"),
   alternates: {
     canonical: "https://www.devdream.my.id",
