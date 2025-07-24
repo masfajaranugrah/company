@@ -3,7 +3,7 @@ export default function FeatureCard3D() {
     <div className="card-3d-container" data-aos="fade-right" data-aos-delay={200}>
       <div className="card-3d backdrop-filter rounded-4 p-4">
         <div className="card-3d-content">
-          <h6 className="fw-semibold mb-2 text-dark">🚀 Kenapa Pilih Kami?</h6>
+          <p className="fw-semibold mb-2 text-20 text-dark">🚀 Kenapa Memilih Kami?</p>
           <p className="mb-1 text-dark">
             <span className="text-primary fw-semibold">Kami mitra digital strategis Anda.</span><br />
             Fokus kami bukan desain semata, tapi <span className="text-primary fw-semibold">hasil nyata</span>:

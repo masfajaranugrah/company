@@ -35,7 +35,7 @@ export default function Cta() {
 							</div>
 						</div>
 						<div className="col-lg-6 offset-lg-1 ps-lg-0 pe-lg-5 mt-lg-0 mt-6">
-							<h5 className="ds-5">Di Dev Dream, </h5>
+							<h3 className="ds-5">Di Dev Dream, </h3>
 							<p className="fs-5 text-500">kamu akan mendapatkan:</p>
 							<div className="d-md-flex align-items-center mt-4 mb-5">
 								<ul className="list-unstyled phase-items mb-0">
@@ -84,16 +84,16 @@ export default function Cta() {
 										/>
 									</div>
 									<div className="ms-3">
-										<h6 className="mt-1">Fajar Anugrah <span className="text-500 fs-6">, CEO & Founder Dev Dream</span></h6>
+										<h4 className="mt-1">Fajar Anugrah <span className="text-500 fs-6">, CEO & Founder Dev Dream</span></h4>
 									</div>
 								</div>
 								<div className="col-md-6 d-flex align-items-center">
 									<span className="line-verticarl border-start h-50 pe-8 position-absolute top-50 start-50 translate-middle d-none d-md-block" />
 									<div className="counter-item-cover counter-item">
 										<div className="content text-center mx-auto">
-											<h2 className="count ds-2 fw-black text-primary">+<span className="odometer" />
+											<h5 className="count ds-2 fw-black text-primary">+<span className="odometer" />
 												<CountUp end={4} enableScrollSpy={true} />
-											</h2>
+											</h5>
 										</div>
 									</div>
 									<p className="ms-3 fs-5">Years’ <br /> Experience</p>

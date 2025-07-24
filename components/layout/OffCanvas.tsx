@@ -53,12 +53,7 @@ export default function OffCanvas({ isOffCanvas, handleOffCanvas }: any) {
 						<p>Email <Link href="/mailto:support@alithemes.com">support@alithemes.com</Link> For help with a current product or service or refer to FAQs and developer tools.</p>
 					</div>
 				</div>
-				<div className="offCanvas__social-icon mt-30">
-					<Link href="/javascript:void(0)"><i className="fab fa-facebook-f" /></Link>
-					<Link href="/javascript:void(0)"><i className="fab fa-twitter" /></Link>
-					<Link href="/javascript:void(0)"><i className="fab fa-google-plus-g" /></Link>
-					<Link href="/javascript:void(0)"><i className="fab fa-instagram" /></Link>
-				</div>
+			 
 			</div>
 			<div className={`offCanvas__overly ${isOffCanvas ? 'active' : ''}`}  onClick={handleOffCanvas}/>
 		</>

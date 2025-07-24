@@ -26,7 +26,7 @@ export default function Services2() {
 											<img src="/assets/imgs/service-2/icon-1.svg" alt="infinia" />
 										</div>
 									</div>
-									<h5 className="my-3">Pembuatan Website Profesional</h5>
+									<h3 className="my-3">Pembuatan Website Profesional</h3>
 									<p className="mb-6">Website Company Profile, Landing Page, atau Portal Bisnis dengan desain modern, cepat diakses, dan kompatibel di semua perangkat.</p>
 
 								</div>
@@ -40,7 +40,7 @@ export default function Services2() {
 											<img src="/assets/imgs/service-2/icon-2.svg" alt="infinia" />
 										</div>
 									</div>
-									<h5 className="my-3">Pengembangan Aplikasi Mobile</h5>
+									<h3 className="my-3">Pengembangan Aplikasi Mobile</h3>
 									<p className="mb-6">Aplikasi Android & iOS custom sesuai kebutuhan. Dikembangkan dengan teknologi terbaru untuk performa maksimal dan pengalaman pengguna terbaik.</p>
 
 								</div>
@@ -54,7 +54,7 @@ export default function Services2() {
 											<img src="/assets/imgs/service-2/icon-3.svg" alt="infinia" />
 										</div>
 									</div>
-									<h5 className="my-3">E-Commerce & Toko Online</h5>
+									<h3 className="my-3">E-Commerce & Toko Online</h3>
 									<p className="mb-6">Toko online lengkap dengan integrasi pembayaran, manajemen produk, laporan penjualan, dan SEO bawaan untuk meningkatkan penjualan.</p>
 
 								</div>
@@ -68,7 +68,7 @@ export default function Services2() {
 											<img src="/assets/imgs/service-2/icon-4.svg" alt="infinia" />
 										</div>
 									</div>
-									<h5 className="my-3">Sistem Informasi Bisnis</h5>
+									<h3 className="my-3">Sistem Informasi Bisnis</h3>
 									<p className="mb-6">Pembuatan sistem ERP, CRM, atau dashboard manajemen berbasis web
 										Semua sistem dirancang scalable dan dapat disesuaikan dengan kebutuhan spesifik perusahaan Anda.
 									</p>
@@ -84,7 +84,7 @@ export default function Services2() {
 											<img src="/assets/imgs/service-2/icon-5.svg" alt="infinia" />
 										</div>
 									</div>
-									<h5 className="my-3">UI/UX <br /> Design Premium</h5>
+									<h3 className="my-3">UI/UX <br /> Design Premium</h3>
 									<p className="mb-6">Desain antarmuka dan pengalaman pengguna yang profesional, responsif, dan ramah pengguna untuk meningkatkan interaksi digital Anda.
 									</p>
 
@@ -99,7 +99,7 @@ export default function Services2() {
 											<img src="/assets/imgs/service-2/icon-6.svg" alt="infinia" />
 										</div>
 									</div>
-									<h5 className="my-3">Layanan Maintenance & Optimasi</h5>
+									<h3 className="my-3">Layanan Maintenance & Optimasi</h3>
 									<p className="mb-6">Perawatan sistem rutin, peningkatan keamanan, dan optimasi kecepatan website untuk kinerja maksimal dan bebas gangguan.</p>
 
 								</div>

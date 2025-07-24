@@ -27,12 +27,12 @@ import { setCookie, getCookie } from "@/utils/cookie"
 
 			<Layout >
 				<Hero />
-				<LogoCloud />
-				<Services />
+				{/* <LogoCloud /> */}
+				  <Services />
 				<Cta />
 				<Static />
  				<Faqs />
-				<Testimonial3 />
+			  <Testimonial3 />  
 			</Layout>
 		</>
 	)
