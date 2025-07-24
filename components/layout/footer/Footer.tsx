@@ -43,8 +43,7 @@ export default function Footer() {
 								<h3 className="text-900 fs-6 fw-black text-uppercase pb-3">Payment</h3>
 								<div className="d-flex social-icons">
 									<img src="/assets/imgs/pay/bca.svg" alt="BCA" style={{ width: "50px", marginLeft: "15px" }} />
-									<img src="/pay/bri.png" alt="Logo BRI" className="bank-logo" style={{ marginLeft: "15px" }}/>
-
+									<img src="/assets/imgs/pay/bri.png" alt="Logo BRI" width="50" height="19"   style={{ marginLeft: "15px" }}/>
  									<img src="/assets/imgs/pay/bni.png"  width="50" height="19" alt="BNI" style={{ marginLeft: "15px" }} />
 								</div>
 								<div className="d-flex social-icons mt-3">
