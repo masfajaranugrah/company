@@ -40,7 +40,7 @@ export default function Hero2() {
 							<div className="mt-10 mt-md-8 position-relative z-1  text-900">
 								<img src="/assets/imgs/hero-2/macbook.png" alt="devdream" data-aos="fade-up" data-aos-delay={100} />
 								<img className="alltuchtopdown d-none d-md-block position-absolute bottom-0 end-0 pe-10 me-lg-10 mb-lg-10" src="/assets/imgs/hero-2/vector.png" alt="devdream" />
-								<div className="position-md-absolute d-inline-block pt-10 pt-md-5 top-50 start-0 translate-middle-y mt-10">
+								<div className="position-md-absolute d-inline-block pt-10 pt-md-5 top-50 start-0 translate-middle-y mt-10 ">
 									<div className="alltuchtopdown backdrop-filter rounded-4 p-4">
 
 										<h6 className="fw-semibold mb-2 text-dark">🚀 Kenapa Pilih Kami?</h6>
@@ -64,27 +64,27 @@ export default function Hero2() {
 											</li>
 											<li className="d-flex align-items-center mt-2">
 												<img src="/assets/imgs/hero-2/check.png" alt="devdream" />
-												<span className="ms-2">GRATIS Domain + SSL</span>
+												<span className="ms-2 text-left">GRATIS Domain + SSL</span>
 											</li>
 											<li className="d-flex align-items-center mt-2">
 												<img src="/assets/imgs/hero-2/check.png" alt="devdream" />
-												<span className="ms-2">Super Cepat & Aman</span>
+												<span className="ms-2 text-left">Super Cepat & Aman</span>
 											</li>
 											<li className="d-flex align-items-center mt-2">
 												<img src="/assets/imgs/hero-2/check.png" alt="devdream" />
-												<span className="ms-2">Integrasi WhatsApp, Payment, dan SEO</span>
+												<span className="ms-2 text-left">Integrasi WhatsApp, Payment, dan SEO</span>
 											</li>
 											<li className="d-flex align-items-center mt-2">
 												<img src="/assets/imgs/hero-2/check.png" alt="devdream" />
-												<span className="ms-2"> Pakai teknologi terbaru (Next.js, Flutter, Laravel, dsb)</span>
+												<span className="ms-2 text-start text-left"> Pakai teknologi terbaru (Next.js, Flutter, Laravel, dsb)</span>
 											</li>
 											<li className="d-flex align-items-center mt-2">
 												<img src="/assets/imgs/hero-2/check.png" alt="devdream" />
-												<span className="ms-2"> Bisa request custom sesuai kebutuhanmu!</span>
+												<span className="ms-2 text-start text-left"> Bisa request custom sesuai kebutuhanmu!</span>
 											</li>
 											<li className="d-flex align-items-center mt-2">
 												<img src="/assets/imgs/hero-2/check.png" alt="devdream" />
-												<span className="ms-2">  dipercaya puluhan klien dari UMKM, Sekolah, hingga Startup!</span>
+												<span className="ms-2 text-start text-left">  dipercaya puluhan klien dari UMKM, Sekolah, hingga Startup!</span>
 											</li>
 
 										</ul>
