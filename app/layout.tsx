@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.devdream.my.id/assets/imgs/logo/icon.jpeg",
+        url: "https://www.devdream.my.id/assets/imgs/logo/icon.jpg",
         width: 1200,
         height: 630,
         alt: "Jasa Joki Proyek, Aplikasi Mobile & Web Dev - Dev Dream",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     description:
       "Cari joki proyek? Butuh aplikasi mobile cepat jadi? Dev Dream siap bantu selesaikan proyek Anda secara profesional dan terpercaya.",
     images: [
-      "https://www.devdream.my.id/assets/imgs/logo/icon.jpeg",
+      "https://www.devdream.my.id/assets/imgs/logo/icon.jpg",
     ],
   },
   metadataBase: new URL("https://www.devdream.my.id"),
