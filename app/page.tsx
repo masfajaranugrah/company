@@ -4,14 +4,16 @@ import { useEffect } from 'react'
 import Cta from "@/components/sections/Cta"
  
  import Services from "@/components/sections/Services"
-import Static from "@/components/sections/Static"
-import Layout from "@/components/layout/Layout"
+ import Layout from "@/components/layout/Layout"
 import Hero from "@/components/sections/Hero"
  
 import Faqs from "@/components/sections/Faqs"
 import Testimonial3 from "@/components/sections/Testimonial"
 import { setCookie, getCookie } from "@/utils/cookie"
-
+import LogoCloud from '@/components/sections/LogoCloud'
+import Price from '@/components/sections/Price'
+import  WhatsAppButton from '@/components/sections/WhatsappButton'
+ 
  export default function Home() {
 	useEffect(() => {
 		const hasVisited = getCookie("hasVisited")
@@ -26,13 +28,14 @@ import { setCookie, getCookie } from "@/utils/cookie"
 
 			<Layout >
 				<Hero />
-				{/* <LogoCloud /> */}
-				  <Services />
-				<Cta />
-				<Static />
- 				<Faqs />
+				<LogoCloud />
+				<Price/>
+				 <Services />
+				 <Cta />
+  				<Faqs />
 			  <Testimonial3 />  
 			</Layout>
+				 <WhatsAppButton />
 		</>
 	)
 }

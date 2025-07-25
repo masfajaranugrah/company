@@ -6,7 +6,7 @@ export default function Preloader() {
 				<div id="loader" className="loader">
 					<div className="loader-container text-centẻ">
 						<div className="loader-icon">
- 							<p>Loading...</p>
+ 							<p>Dev Dream</p>
 						</div>
 					</div>
 				</div>

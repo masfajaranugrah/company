@@ -8,9 +8,7 @@ export default function OffCanvas({ isOffCanvas, handleOffCanvas }: any) {
 				<div className="offCanvas__close-icon menu-close">
 					<button onClick={handleOffCanvas}><i className="far fa-window-close" /></button>
 				</div>
-				<div className="offCanvas__logo mb-30">
-					<Link href="/"><img src="/assets/imgs/logo/logo-dark.svg" alt="Logo" /></Link>
-				</div>
+				  
 				<div className="offCanvas__side-info mb-30">
 					<div className="contact-list mb-30">
 						<h4>Chat with us</h4>
