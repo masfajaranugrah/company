@@ -41,7 +41,7 @@ export default function WhatsAppButton() {
   return (
     <div
       className="whatsapp-btn position-fixed end-0 m-4"
-      style={{ bottom: "4.5rem", zIndex: 9999 }} // Naik dari bawah
+      style={{ bottom: "4rem", zIndex: 9999 }} // Naik dari bawah
     >
       <a
         href="https://wa.me/6287836167585?text=Hello%20Dev%20Dream"

@@ -40,8 +40,7 @@ export default function Price() {
 
                         </h3>
                         <p className="fs-5 mb-0">
-                            Dapatkan jasa pembuatan website dengan kualitas terbaik dengan harga yang lebih murah dan hasil yang berkualitas. Terdapat lebih dari 100++ pilihan desain template web yang responsive, user friendly dan modern. Resolusiweb berkomitmen untuk membantu mengembangkan bisnis Anda di dunia digital. Dapatkan layanan Garansi Selamanya jika Anda menggunakan hosting dari Resolusiweb. Cocok untuk semua kalangan bisnis mulai dari UMKM, UKM maupun corporate.
-                        </p>
+Dapatkan layanan pembuatan website berkualitas tinggi dengan harga yang lebih terjangkau. DevDream menyediakan lebih dari 100 pilihan desain template yang modern, responsif, dan ramah pengguna. Kami berkomitmen membantu bisnis Anda berkembang secara digital melalui solusi web yang optimal. Nikmati layanan garansi selamanya jika Anda menggunakan layanan hosting dari DevDream. Sangat cocok untuk berbagai skala usaha, mulai dari UMKM hingga perusahaan besar.                        </p>
 
                     </div>
                     <div className="row justify-content-center align-items-center">
