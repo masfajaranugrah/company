@@ -1,5 +1,6 @@
 
 import "@/public/assets/css/vendors.bundle.css"
+import "@/public/assets/css/portfolio.css"
 
 import "@/node_modules/react-modal-video/css/modal-video.css"
 

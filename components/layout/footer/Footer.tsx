@@ -32,7 +32,7 @@ export default function Footer() {
 							<div className="col-lg-3 col-md-6 col-12 mb-4">
 								<h3 className="text-900 fs-6 fw-black text-uppercase pb-3">Contact</h3>
 								<div className="d-flex flex-column align-items-start">
-									<p className="hover-effect text-900 mb-2 fw-medium fs-6">devdreamtech20@gmail.com</p>
+									<p className="hover-effect text-900 mb-2 fw-medium fs-6">cs@devdream.my.id</p>
 									<p className="hover-effect text-900 mb-2 fw-medium fs-6">+62 878-3616-7585</p>
 									<p className="hover-effect text-900 mb-2 fw-medium fs-6">+62 857-4230-3620</p>
 								</div>

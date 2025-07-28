@@ -1,7 +1,7 @@
 "use client"
 import { useEffect } from 'react'
  
-import Cta from "@/components/sections/Cta"
+import Cta from "@/components/sections/Cta_new"
  
  import Services from "@/components/sections/Services"
  import Layout from "@/components/layout/Layout"

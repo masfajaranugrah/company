@@ -61,7 +61,7 @@ export default function PageContact3() {
 											<p className="text-500">Tim kami akan merespons pertanyaan Anda dengan cepat</p>
 											<div className="d-flex mb-2">
 												<img src="/assets/imgs/contact-2/icon-4.svg" alt="devdream" />
-												<Link className="ms-2 text-decoration-underline text-900 fs-7"   href="mailto:devdreamtech20@gmail.com?subject=Permintaan%20Layanan%20Website&body=Halo%20Dev%20Dream,%0ASaya%20tertarik%20dengan%20layanan%20pembuatan%20website%20dan%20aplikasi%20mobile.%20Mohon%20informasikan%20lebih%20lanjut.%0ATerima%20kasih.">devdreamtech20@gmail.com email e</Link>
+												<Link className="ms-2 text-decoration-underline text-900 fs-7"   href="mailto:devdreamtech20@gmail.com?subject=Permintaan%20Layanan%20Website&body=Halo%20Dev%20Dream,%0ASaya%20tertarik%20dengan%20layanan%20pembuatan%20website%20dan%20aplikasi%20mobile.%20Mohon%20informasikan%20lebih%20lanjut.%0ATerima%20kasih.">cs@devdream.my.id</Link>
 											</div>
 										 
 											<h6>Untuk pertanyaan lebih lanjut</h6>
