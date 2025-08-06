@@ -203,7 +203,7 @@ Dapatkan layanan pembuatan website berkualitas tinggi dengan harga yang lebih te
                     </div>
                     <div className="row mt-10">
                            <p className="mb-5 fs-5 text-center text-20">
-                            Jika ada pertanyaan lain atau ingin membuat <span className="fw-bold">aplikasi mobile</span> bisa bubungin tim kami
+                            Jika ada pertanyaan lain atau ingin membuat <span className="fw-bold">aplikasi mobile</span> atau <span className="fw-bold">tugas akhir</span> bisa menghubungi tim kami
                         </p>
                         <div className="d-flex align-items-center justify-content-lg-cener justify-content-center">
                             <Link href="https://wa.me/6287836167585?text=Halo%20Desk%20Dream%2C%20saya%20tertarik%20dengan%20jasa%20yang%20ditawarkan.%20Bolehkah%20saya%20berdiskusi%20terlebih%20dahulu%3F" className="btn btn-gradient">

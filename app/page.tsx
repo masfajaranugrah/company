@@ -30,8 +30,8 @@ import  WhatsAppButton from '@/components/sections/WhatsappButton'
 				<Hero />
 				<LogoCloud />
 				<Price/>
-				 <Services />
 				 <Cta />
+				 <Services />
   				<Faqs />
 			  <Testimonial3 />  
 			</Layout>

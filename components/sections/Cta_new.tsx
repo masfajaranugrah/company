@@ -10,51 +10,59 @@ export default function Cta() {
 	const portfolioData = [
 		// Page 1
 		{
-			title: "Lompat Kelas",
-			image: "/assets/imgs/project-1/demo1.png",
-			link: "https://lompatkelas.vercel.app/"
+ 			image: "/assets/imgs/project-1/demo7..png",
+		},
+		
+		{
+ 			image: "/assets/imgs/project-1/demo13.png",
 		},
 		{
-			title: "Company Profile",
-			image: "/assets/imgs/project-1/demo2.png",
-			link: "https://demo1-lompatkelas.vercel.app/"
+ 			image: "/assets/imgs/project-1/demo14.png",
+		},
+			{
+			image: "/assets/imgs/project-1/demo11.png",
+			 
 		},
 		{
-			title: "Dashboard",
-			image: "/assets/imgs/project-1/demo3.png",
-			link: "https://github.com/masfajaranugrah/philiadash"
+			image: "/assets/imgs/project-1/demo12.jpeg",
+			 
 		},
 		{
-			title: "Company Profile",
-			image: "/assets/imgs/project-1/demo5.png",
-			link: "https://paten-masfajaranugrahs-projects.vercel.app/"
+ 			image: "/assets/imgs/project-1/demo10.png",
+			 
 		},
 		{
-			title: "Philia Adventure Land",
-			image: "/assets/imgs/project-1/demo6.png",
-			link: "https://www.philiadventureland.com/"
+ 			image: "/assets/imgs/project-1/demo3.png",
 		},
 		{
-			title: "Philia Adventure Land",
-			image: "/assets/imgs/project-1/demo7..png",
-			link: "https://github.com/masfajaranugrah/up_philia"
+ 			image: "/assets/imgs/project-1/demo5.png",
+		},
+		{
+ 			image: "/assets/imgs/project-1/demo6.png",
+		},
+		{
+ 			image: "/assets/imgs/project-1/demo7..png",
 		},
 		// Page 2
 		{
-			title: "Marketplace",
-			image: "/assets/imgs/project-1/demo8.png",
-			link: "https://github.com/masfajaranugrah/marketplace"
+ 			image: "/assets/imgs/project-1/demo15.png",
 		},
 		{
-			title: "API App Course",
-			image: "/assets/imgs/project-1/demo9.png",
-			link: "https://github.com/App-Course/backend"
+ 			image: "/assets/imgs/project-1/demo9.png",
+			 
 		},
 		{
-			title: "Website & Mobile App Development Services",
-			image: "/assets/imgs/project-1/demo10.png",
-			link: "https://joki.fajaranugrahdev.my.id/"
-		}
+ 			image: "/assets/imgs/project-1/demo1.png",
+		},
+		 
+	 
+	 
+		{
+ 			image: "/assets/imgs/project-1/demo2.png",
+		},
+			{
+ 			image: "/assets/imgs/project-1/demo8.png",
+		},
 
 	];
 
@@ -96,20 +104,35 @@ export default function Cta() {
 						{currentItems.map((project, index) => (
 							<div key={`${currentPage}-${index}`} className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={100 + (index * 100)}>
 								<div className="portfolio-item position-relative overflow-hidden rounded-4 shadow-1 hover-up">
-									<Link href={project.link} className="d-block">
+									<div className="d-block">
 										<div className="portfolio-image position-relative">
-											<img 
-												src={project.image} 
-												alt={project.title}
-												className="w-100"
-												style={{ 
-													height: "300px",
-													objectFit: "cover",
-													transition: "transform 0.5s ease"
-												}}
-											/>
+<div
+  style={{
+    width: "100%",
+    aspectRatio: "16 / 9",
+    borderRadius: "12px",
+    overflow: "hidden",
+     display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
+  }}
+>
+  <img
+    src={project.image}
+    alt="proyek"
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "cover" // Atau pakai contain kalau mau semua isi tampil
+    }}
+  />
+</div>
+
+
+
+
 										</div>
-									</Link>
+									</div>
 								</div>
 							</div>
 						))}

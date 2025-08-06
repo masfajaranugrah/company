@@ -105,6 +105,149 @@ export default function Testimonial3() {
 										</div>
 									</div>
 								</SwiperSlide>
+									<SwiperSlide className="swiper-slide">
+									<div className="bg-neutral-100 card-testimonial-3 p-5 rounded-3 position-relative">
+										<div className="d-flex align-items-center mb-5">
+											<img className="avatar-lg" src="/assets/imgs/testimonial/pp.png" alt="infinia" />
+											<div className="d-flex flex-column">
+												<h6 className="ms-3 fs-6 mb-0">Iqbal R., </h6>
+												<div className="flag ms-3">
+													<img src="/assets/imgs/testimonial/flag.png" alt="infinia" style={{width: "20px"}}/>
+													<span className="fs-8">Direktur PT. Mitra Solusi</span>
+												</div>
+											</div>
+										</div>
+										<p className="text-900 border-bottom pb-4 mb-4">Saya merasa dilayani seperti partner, bukan hanya klien. Proyek ERP kami berjalan lancar dan efektif.</p>
+										<div className="d-flex">
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<span className="fs-8 text-600 ms-2">(For services and support)</span>
+										</div>
+										<div className="position-absolute top-0 end-0 m-4">
+											<svg xmlns="http://www.w3.org/2000/svg" width={52} height={52} viewBox="0 0 52 52" fill="none">
+												<g clipPath="url(#clip0_551_13914)">
+													<path d="M0 29.7144H11.1428L3.71422 44.5715H14.8571L22.2857 29.7144V7.42871H0V29.7144Z" fill="#D1D5DB" />
+													<path d="M29.7148 7.42871V29.7144H40.8577L33.4291 44.5715H44.5719L52.0005 29.7144V7.42871H29.7148Z" fill="#D1D5DB" />
+												</g>
+												<defs>
+													<clipPath>
+														<rect width={52} height={52} fill="white" />
+													</clipPath>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</SwiperSlide>	<SwiperSlide className="swiper-slide">
+									<div className="bg-neutral-100 card-testimonial-3 p-5 rounded-3 position-relative">
+										<div className="d-flex align-items-center mb-5">
+											<img className="avatar-lg" src="/assets/imgs/testimonial/pp.png" alt="infinia" />
+											<div className="d-flex flex-column">
+												<h6 className="ms-3 fs-6 mb-0">Riko S., </h6>
+												<div className="flag ms-3">
+													<img src="/assets/imgs/testimonial/flag.png" alt="infinia" style={{width: "20px"}}/>
+													<span className="fs-8">Pengusaha UMKM</span>
+												</div>
+											</div>
+										</div>
+										<p className="text-900 border-bottom pb-4 mb-4">Gila banget developernya pelayanan mantul, free maintenance kalo ada kendala di bantu terus, pokoknya recomended dah tidak lepas dari tanggung jawabnya, terimaksih banyk buat tim dev dream .</p>
+										<div className="d-flex">
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<span className="fs-8 text-600 ms-2">(For services and support)</span>
+										</div>
+										<div className="position-absolute top-0 end-0 m-4">
+											<svg xmlns="http://www.w3.org/2000/svg" width={52} height={52} viewBox="0 0 52 52" fill="none">
+												<g clipPath="url(#clip0_551_13914)">
+													<path d="M0 29.7144H11.1428L3.71422 44.5715H14.8571L22.2857 29.7144V7.42871H0V29.7144Z" fill="#D1D5DB" />
+													<path d="M29.7148 7.42871V29.7144H40.8577L33.4291 44.5715H44.5719L52.0005 29.7144V7.42871H29.7148Z" fill="#D1D5DB" />
+												</g>
+												<defs>
+													<clipPath>
+														<rect width={52} height={52} fill="white" />
+													</clipPath>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</SwiperSlide>
+									<SwiperSlide className="swiper-slide">
+									<div className="bg-neutral-100 card-testimonial-3 p-5 rounded-3 position-relative">
+										<div className="d-flex align-items-center mb-5">
+											<img className="avatar-lg" src="/assets/imgs/testimonial/pp.png" alt="infinia" />
+											<div className="d-flex flex-column">
+												<h6 className="ms-3 fs-6 mb-0">Agung T., </h6>
+												<div className="flag ms-3">
+													<img src="/assets/imgs/testimonial/flag.png" alt="infinia" style={{width: "20px"}}/>
+													<span className="fs-8">Pengusaha</span>
+												</div>
+											</div>
+										</div>
+										<p className="text-900 border-bottom pb-4 mb-4">Pelayanan bagus banget terjadwal dan sesuai jobdesk , web nya bisa di pakai kenceng banget design nya modern kelihatan bersih gitu enak lah, recommended lah pokoknya.</p>
+										<div className="d-flex">
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<span className="fs-8 text-600 ms-2">(For services and support)</span>
+										</div>
+										<div className="position-absolute top-0 end-0 m-4">
+											<svg xmlns="http://www.w3.org/2000/svg" width={52} height={52} viewBox="0 0 52 52" fill="none">
+												<g clipPath="url(#clip0_551_13914)">
+													<path d="M0 29.7144H11.1428L3.71422 44.5715H14.8571L22.2857 29.7144V7.42871H0V29.7144Z" fill="#D1D5DB" />
+													<path d="M29.7148 7.42871V29.7144H40.8577L33.4291 44.5715H44.5719L52.0005 29.7144V7.42871H29.7148Z" fill="#D1D5DB" />
+												</g>
+												<defs>
+													<clipPath>
+														<rect width={52} height={52} fill="white" />
+													</clipPath>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</SwiperSlide>
+									<SwiperSlide className="swiper-slide">
+									<div className="bg-neutral-100 card-testimonial-3 p-5 rounded-3 position-relative">
+										<div className="d-flex align-items-center mb-5">
+											<img className="avatar-lg" src="/assets/imgs/testimonial/pp.png" alt="infinia" />
+											<div className="d-flex flex-column">
+												<h6 className="ms-3 fs-6 mb-0">Salsabila A., </h6>
+												<div className="flag ms-3">
+													<img src="/assets/imgs/testimonial/flag.png" alt="infinia" style={{width: "20px"}}/>
+													<span className="fs-8">-</span>
+												</div>
+											</div>
+										</div>
+										<p className="text-900 border-bottom pb-4 mb-4">Maaf ya kak sebelumnya saya banyak bertanya, dan saya sangat salut juga mas" nya ramah banget malah dijelasin sampai paham cara penggunaanya.</p>
+										<div className="d-flex">
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+											<span className="fs-8 text-600 ms-2">(For services and support)</span>
+										</div>
+										<div className="position-absolute top-0 end-0 m-4">
+											<svg xmlns="http://www.w3.org/2000/svg" width={52} height={52} viewBox="0 0 52 52" fill="none">
+												<g clipPath="url(#clip0_551_13914)">
+													<path d="M0 29.7144H11.1428L3.71422 44.5715H14.8571L22.2857 29.7144V7.42871H0V29.7144Z" fill="#D1D5DB" />
+													<path d="M29.7148 7.42871V29.7144H40.8577L33.4291 44.5715H44.5719L52.0005 29.7144V7.42871H29.7148Z" fill="#D1D5DB" />
+												</g>
+												<defs>
+													<clipPath>
+														<rect width={52} height={52} fill="white" />
+													</clipPath>
+												</defs>
+											</svg>
+										</div>
+									</div>
+								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="bg-neutral-100 card-testimonial-3 p-5 rounded-3 position-relative">
 										<div className="d-flex align-items-center mb-5">
