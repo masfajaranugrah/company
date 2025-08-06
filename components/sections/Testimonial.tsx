@@ -253,7 +253,7 @@ export default function Testimonial3() {
 										<div className="d-flex align-items-center mb-5">
 											<img className="avatar-lg" src="/assets/imgs/testimonial/pp.png" alt="infinia" />
 											<div className="d-flex flex-column">
-												<h6 className="ms-3 fs-6 mb-0"> Bayu H.,</h6>
+												<h6 className="ms-3 fs-6 mb-0"> Bayu H .,</h6>
 												<div className="flag ms-3">
 													<img src="/assets/imgs/testimonial/flag.png" alt="infinia" style={{width: "20px"}}/>
 													<span className="fs-8">Startup Founder</span>
